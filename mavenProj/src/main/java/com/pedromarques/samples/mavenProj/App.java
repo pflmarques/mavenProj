@@ -29,6 +29,8 @@ public class App
 		objB.getMessage();    	
 		objB.setMessage("I'm object BB .. nice to meet you");
 		objB.getMessage();
+		
+		objA.getMessage();
     	
     	
     }
