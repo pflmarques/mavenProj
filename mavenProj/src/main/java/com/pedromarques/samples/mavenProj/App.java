@@ -27,6 +27,8 @@ public class App
 		
 		HelloWorld objB = (HelloWorld) context.getBean("helloWorld"); 
 		objB.getMessage();    	
+		objB.setMessage("I'm object BB");
+		objB.getMessage();
     	
     	
     }
